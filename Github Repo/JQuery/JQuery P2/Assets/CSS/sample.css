@@ -1,0 +1,81 @@
+html{
+    min-height: 100%;
+}
+
+body{
+    background: #544a7d;  
+    background: -webkit-linear-gradient(to right, #ffd452, #544a7d);
+    background: linear-gradient(to right, #ffd452, #544a7d);
+    line-height: 1.5;
+    text-align: center;
+}
+h1{
+    font-weight: 200;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+button{
+    display: inline;
+    background-color: rgba(0, 0, 0, 0, 3);
+    border: 1px solid transparent;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border-radius: 45px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+button:hover{
+    border: 1px solid rgba(255, 255, 255, 8);
+    color: black;
+    background: rgba(255, 255, 255, .1);
+}
+button.close{
+    background: #a2d2ff ;
+    color: white;
+}
+button.close:hover{
+    border: 1px solid white;
+    color: black;
+    background: transparent;
+}
+button.open:hover{
+    background: grey;
+
+}
+.karartma{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    transition: .5s ease;
+    z-index: -1;
+    opacity: 0;
+}
+.karartma.active{
+    opacity: 1;
+    z-index: 2;
+}
+.model{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    max-width: 450px;
+    color: #4a5666;
+    background: wheat;
+    visibility: hidden;
+    opacity: 1;
+    transition: .5 ease;
+    transform:translate(-50%, -50%);
+    z-index: 2;
+}
+
+.model.active{
+    visibility: visible;
+    opacity: 1;
+}
+

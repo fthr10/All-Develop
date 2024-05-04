@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Bootstrap</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        .table-dark {
+            padding-left: 500px;
+        text-align: center;
+  --bs-table-color: green;
+  --bs-table-bg: #212529;
+  --bs-table-border-color: #4d5154;
+  --bs-table-striped-bg: #2c3034;
+  --bs-table-striped-color: green;
+  --bs-table-active-bg: #373b3e;
+  --bs-table-active-color: green;
+  --bs-table-hover-bg: #323539;
+  --bs-table-hover-color: green;
+  color: var(--bs-table-color);
+  border-color: var(--bs-table-border-color);
+}
+
+    </style>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Contextual Sınıflar</h2>
+            <p>Bu sınıflar şunlardır : .active, .succes, .info, .warning, .danger</p>
+         </div>
+         <table class="table-dark">
+            <thead>
+                <tr>
+                    <th>İsim</th>
+                    <th>Soyisim</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="success">
+                    <td>Foo</td>
+                    <td>Bar</td>
+                    <td>foobar@test.com</td>
+                </tr>
+                <tr class="danger">
+                    <td>Foo</td>
+                    <td>Bar</td>
+                    <td>foobar@test.com</td>
+                </tr>
+                <tr class="info">
+                    <td>Foo</td>
+                    <td>Bar</td>
+                    <td>foobar@test.com</td>
+                </tr>
+                <tr class="warning">
+                    <td>Foo</td>
+                    <td>Bar</td>
+                    <td>foobar@test.com</td>
+                </tr>
+                <tr class="active">
+                    <td>Foo</td>
+                    <td>Bar</td>
+                    <td>foobar@test.com</td>
+                </tr>
+            </tbody>
+            
+         </table>
+    </body>
+    </html>

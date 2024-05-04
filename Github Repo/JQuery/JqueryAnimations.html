@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery Animations</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("button").click(function(){
+                var div =$("div");
+                div.animate({height:"300px", opacity:"0.4"},"slow");
+                div.animate({width:"300px", opacity:"0.8"},"slow",);
+                div.animate({height:"100px", opacity:"0.4"},"slow");
+                div.animate({width:"100px", opacity:"0.8"},"slow");
+
+                // $("div").animate({
+                //     left:"250px",
+                //     height:"+=100px",
+                //     width:"+=100px",
+                //     opacity:"0.05" 
+                });
+            });
+
+    </script>
+
+
+</head>
+<body>
+
+    <button>Tıkla ve Gör</button>
+    <div style="background:blue; height:100px; width: 100px; position: absolute; margin: 20px;"></div>
+    
+</body>
+</html>

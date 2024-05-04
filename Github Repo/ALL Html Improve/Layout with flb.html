@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Layout With Flexbox</title>
+
+    <style media="screen">
+        html,
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        input {
+            font-size: 14px;
+        }
+
+        body {
+            background-color: grey;
+            padding-bottom: 100px;
+        }
+
+        h2,
+        h3 {
+            margin: 0 0 .75em 0;
+        }
+
+        .container {
+            max-width: 750px;
+            margin: 20px auto 0 auto;
+            padding: 30px;
+            background-color: #FFF;
+            border-radius: 5px;
+        }
+
+        .form-row {
+            padding: 10px 0;
+            display: flex;
+        }
+
+        .form-row label {
+            padding: 10px;
+            flex: 1;
+        }
+
+        .form-row input {
+            flex: 3;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Layout With Flexbox</h1>
+        <form class="" action="index.html" method="post">
+            <div class="form-row">
+                <label for="name">Name</label>
+                <input type="text" name="" value="" id="name">
+            </div>
+            <div class="form-row">
+                <label for="q">Secret Question: </label>
+                <input type="text" name="" value="" id="q">
+            </div>
+        </form>
+    </div>
+    <div class="column-layout">
+        <div class="main-column">
+            <h2>Main Column</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea </p>
+        </div>
+        <div class="sidebar-one">
+            <h3>Sidebar One</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea </p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+body{
+    
+    margin: 50px 40px 10px 40px;
+    font-family: "Imbue", serif;
+    font-size: 25px;
+    background: #b92b27; 
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  
+    background: linear-gradient(to right, #1565C0, #b92b27); 
+
+
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+h1{
+
+    background-color: #7D8CA3;
+    opacity: 0.5;
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+
+}
+li{
+    background: #79A9D1;
+    height: 40px;
+    line-height: 30px;
+    color: white;
+
+}
+li:nth-child(2n){
+    background: #9099A2;
+}
+h1>i{
+    float: right ;
+}
+.tamamlanmis{
+    color: grey;
+    text-decoration: line-through;
+    
+}
+span{
+    background: red;
+    height:40px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    width: 0;
+    display: inline-block;
+    transition: 0.2s linear;
+    opacity: 0;
+
+}
+li:hover span{
+    width: 40px;
+    opacity: 1.0;
+}
+.container{
+    margin: 100px auto;
+    box-shadow: 2px 2px 2px 1px rgba(1, 155, 91, 0.5);
+    height: 500px;
+
+}
+input{
+font-size: 20px;
+color: #2980b9;
+background-color: aquamarine;
+width: 99.6%;
+border: 3opx solid rgba(0,0,0,0);
+}
+input:focus{
+    background-color: #fff;
+    border: 10px solid aquamarine;
+}

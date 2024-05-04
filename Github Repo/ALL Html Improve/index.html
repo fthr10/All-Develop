@@ -1,0 +1,277 @@
+<html>
+<head>
+	<title>Fatih Rengi</title>
+	
+	<style>
+		table{
+			width: 100%
+		}
+		td, th{
+			border: 1px solid gray;
+			text-align: left;
+			padding: 8px;
+
+		}
+		tr:nth-child(even){
+		background-color: gray;
+		}
+		.test{
+			background-color: red;
+			color: white;
+
+		}
+		.test-2{
+			background-color: pink;
+			color: black;
+		}
+		div{
+			background-color: purple;
+			color: black;
+		}
+		header ,footer {
+			color: white;
+			background-color: black;
+			text-align: center;
+		}
+		div.container{
+			color: blue;
+			background-color: yellow;
+			text-align: left;
+		}
+
+
+	</style>
+</head>
+	<body>
+		<h1>Google Map Ekleme</h1>
+
+		<div id="Map" style="width:800px; height:400px;">
+		</div>
+		<script>
+			function myMap(){
+				var mapOptions={
+					center: new google.maps.latLng(41.0,28.9),
+					zoom: 10,
+					mapTypeId: google.maps.MapTypeId.HYBRID
+				}
+				var map= new google.maps.Map(document.getElementById("map"),mapOptions);
+			}
+		</script>
+
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA93G3aqPY3e50qDmx8mJrxipdb-tj8Zxk&callback=myMap" type=""text/javascript></script>
+
+
+
+		<hr>
+		<br>
+		<h1>Video Ekleme</h1>
+		<video width="800" controls>
+			<source src="Roleplay 1.mov" tpye="Video/mov">
+		</video>
+		<hr>
+		<hr>
+
+		<iframe src="https://www.youtube.com/embed/InaFWhcXFbk"
+			width="500" height="500">
+		</iframe>
+
+		<hr>
+		<hr>
+		<form action="">
+			<fieldset>
+				<legend>Kişisel Bilgiler</legend>
+				İsminiz <br>
+				<input type="Text" name="İsim" value="Fatih"><br>
+				Soyisminiz <br>
+				<input type="Text" name="Soyisim" value="Rengi">
+				<br><br>
+				<textarea name="Mesaj" id="" cols="30" rows="10">Lütfen Mesajınızı Yazınız...</textarea><br>
+				<button>Gönder</button>
+				<br>
+				<hr>
+
+				<select name="Markalar" id="">
+					<option value="Volvo">Volvo</option>
+					<option value="Bmw">Bmw</option>
+					<option value="Mercedes">Mercedes</option>
+					<option value="Fiat">Fiat</option>
+
+				</select>
+				<br>
+				<br>
+				<input list="Ülkeler" name="Ülkeler">
+				<datalist id="Ülkeler">
+					<option value="Turkiye">Türkiye Tr</option>
+					<option value="England">England Br</option>
+					<option value="Germany">Germany De</option>
+					<option value="France">France Fr</option>
+				</datalist>
+				<br>
+				<br>
+				<input type="Submit" name="Gönder">
+
+
+
+
+
+				</form>
+			</fieldset>
+
+		</form>
+
+
+		<hr>
+		<form action="">
+			İsim
+			<input type="text" name="İsim" Value="" placeholder="İsim">
+			<br>
+			Soyisim
+			<input type="text" name="Soyisim" Value="" placeholder="Soyisim">
+			<br>
+			<input type="Submit" name="Gönder">
+
+
+		</form>
+
+
+
+
+		<hr>
+		<div class="container">
+		<header>
+			<h1>Bu Bir Başlıktır.</h1>
+		</header>
+			<nav>
+				<ul>
+					<li><a href="#">Birinci Link</a></li>
+					<li><a href="#">İkinci Link</a></li>
+					<li><a href="#">Üçüncü Link</a></li>
+				</ul>
+			</nav>
+			<article>
+				<h1><center>Makale Başlığı</center></h1>
+				<p>
+					Ekşi Sözlük, kayıtlı yazarların yorumlarını içeren Türkiye merkezli bir katılımcı sözlüktür. 400.000'den fazla üyeyle Türkiye'deki en büyük katılımcı sözlük ve ülkedeki en büyük internet topluluklarından birisidir.
+				</p>
+				<p>
+					Ekşi Sözlük, kayıtlı yazarların yorumlarını içeren Türkiye merkezli bir katılımcı sözlüktür. 400.000'den fazla üyeyle Türkiye'deki en büyük katılımcı sözlük ve ülkedeki en büyük internet topluluklarından birisidir.
+				</p>
+				<footer>Copyright Since By 2023 FR</footer>
+
+
+			</article>
+	
+			</div>
+
+
+
+		<hr>
+		<iframe src="https://cdn.pixabay.com/photo/2023/10/23/17/03/audi-8336484_640.jpg" frameboard="0" height="300" width="600"></iframe>
+
+		<hr>
+		<div class="test">
+			<h1>Test</h1>
+			<p>işi sevdiği için mi yapıyor bilemem ancak değeri düşük bir para birimi için içerik üretmeye değmez. bi youtuber'ı savunduğumdan değil. insan sevdiği işi yapmalı ama emeğinin - 	varsa eğer - karşılığını da tam almalı.
+			bana samimiyetsiz gelmedi açıkcası.</p>	
+		</div>
+		<div class="test-2">
+			<h1>Test</h1>
+			<p>işi sevdiği için mi yapıyor bilemem ancak değeri düşük bir para birimi için içerik üretmeye değmez. bi youtuber'ı savunduğumdan değil. insan sevdiği işi yapmalı ama emeğinin - 	varsa eğer - karşılığını da tam almalı.
+			bana samimiyetsiz gelmedi açıkcası.</p>	
+		</div>
+		<div>
+			<h1>Test</h1>
+			<p>işi sevdiği için mi yapıyor bilemem ancak değeri düşük bir para birimi için içerik üretmeye değmez. bi youtuber'ı savunduğumdan değil. insan sevdiği işi yapmalı ama emeğinin - 	varsa eğer - karşılığını da tam almalı.
+			bana samimiyetsiz gelmedi açıkcası.</p>	
+		</div>
+
+		<hr>
+		<h2>Block Level Elements</h2>
+		
+		<ol>
+			<li>Div</li>
+			<li>h1,h2...h6</li>
+			<li>p</li>
+			<li>form</li>
+
+		</ol>
+		<h2>Inline Elements</h2>
+		<ol>
+			<li>Span</li>
+			<li>a</li>
+			<li>img</li>
+		</ol>
+
+		<h2>Listeler</h2>
+		<h1>Unorder List</h1>
+		<ul>
+			<li>Çay</li>
+			<li>Kahve</li>
+			<li>Su</li>
+
+		</ul>
+
+		<h1>Sıralı Liste</h1>
+		<ol>
+			<li>Çay</li>
+			<li>Kahve</li>
+			<li>Su</li>
+		</ol>
+
+		<hr>
+			<h2>Tablolar</h2>
+			<table>
+				<tr>
+					<th>Adı</th>
+					<th>Soyadı</th>
+					<th>Okulu</th>
+				</tr>
+				<tr>
+					<td>Fatih</td>
+					<td>Rengi</td>
+					<td>Atatürk</td>
+				</tr>
+				<tr>
+					<td>Fatih</td>
+					<td>Rengi</td>
+					<td>Atatürk</td>
+				</tr>
+			</table>
+
+
+			<h1>İlk Başlık</h1>
+			<h1>Son Başlık</h1>
+			<p>İlk Paragraf</p><br>
+
+			<hr>
+			<!Yorum Satırı..>
+			<h1>Alıntılar</h1>
+
+			<h2><p><q>hic tasvip etmedigim bir label. ama son teknolojiler ile up-to-date kalmak ve jest ile testler yazmak adina biraz da kendimi icinde hissettigim teknoloji yigini. isler bizi uzak tutmaya calissa da network aplikasyonlari hala temel program yapisi.</q></p></h2>
+
+			<blockquote>
+				zamanında bir yazılım işi yapılacağı zaman çalışılacak alanların genel domaini belirlenir ve esas hedef onu işleri halledecek araçları inşa etmek olurdu. web geliştiricisi olmak demek, html/css yazıp aynı zamanda apache server'da siteyi deploy edebilmek demekti. bu adam weble alakalı bütün işleri yapan kişiydi, ister beğenin ister beğenmeyin bu adama mecburdunuz.<br>
+
+				<p></p>				sonra programcılığın akışı webe doğru kaydı ve masaüstü uygulama bile web teknolojileri üzerinden hazırlanır oldu. yeni yazılımcılar da webe doğru döndü ve şöyle bir şey yaşandı: akıllı telefonlarla herkes daha çok bilgisayar/internet kullanmaya başladı! eskiden birkaç ilgilinin ya da işi olanın kullandığı bilgisayarlar artık cebimize girdi. daha çok insan bilgisayar kullanmaya başladı, daha çok uygulamalar parladı ve abuk subuk yazılımlardan daha çok para kazanılmaya başlandı. bu kültür dönüşümü artık yazılımcılığı da merkezine çekti.
+
+				<p>Lorem İpsum <abbr title="Dolor">Eksi Sözlük</abbr> 23 Nisan 1920'de açılmıştır.
+ Sit Ame</p>
+
+			</blockquote>
+			<a href="https://www.youtube.com">Youtube'a git</a>
+			<br>
+			<hr>
+			<b>Bold Text</b><br>
+			<strong>Strong Text</strong><br>
+			<i>Italic Text</i><br>
+			<mark>Marked Text</mark><br>
+			<em>Emphasized Text</em><br>
+			<sub>Subscript Text</sub><br>
+			<sup>Superscript</sup><br>
+			<small>Small Text</small><br>
+			<del>Deleted Text</del><br>
+			<ins>İnsterded Text</ins>
+			<br>
+			<img src="https://cdn.pixabay.com/photo/2023/11/01/11/12/hallstatt-8357170_640.jpg">
+	</body>
+</html>

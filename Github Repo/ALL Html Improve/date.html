@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tarih Gosterme</title>
+</head>
+<body>
+<p>Tarihi gormek icin butona tiklayiniz...</p>
+<button id="tarihGosteren">Tarihi Goster</button>
+<p id="tarih"> </p>
+
+<script type="text/javascript">
+document.getElementById("tarihGosteren").onclick=tarihGoster;
+
+function tarihGoster(){
+		document.getElementById("tarih").innerHTML=Date();
+	}
+</script>
+</body>
+</html>

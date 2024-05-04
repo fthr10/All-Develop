@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/sample.css">
+    <title>Document</title>
+</head>
+<body>
+<h1>Tabs</h1>
+    <div class="tabs">
+        <nav class="tab-list">
+            <a class="tab active" href="#one">One</a>
+            <a class="tab" href="#two">Two</a>
+            <a class="tab" href="#three">Three</a>
+        </nav>
+    
+    <div id="one" class="tab-content show">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+    <div id="two" class="tab-content">
+        Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+    </div>
+    <div id="three" class="tab-content">
+        Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.”
+    </div>
+</div>
+    
+
+    <script type="text/javascript">
+        $(".tab-list").on("click",".tab",function(){
+        $(".tab").removeClass("active");
+        $(".tab-content").removeClass("show");
+        $(this).addClass("active");
+        $($(this).attr("href")).addClass("show");
+        
+
+        });
+    </script>
+
+</body>
+</html>
